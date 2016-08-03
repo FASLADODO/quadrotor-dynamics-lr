@@ -66,6 +66,7 @@ def train(autoencoder,  epochs):
 
     autoencoder.fit(x_train, x_train,
                     nb_epoch=epochs,
+                    batch_size=10,
                     shuffle=True,
                     validation_data=(x_test, x_test))
 
