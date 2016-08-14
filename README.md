@@ -1,1 +1,1 @@
-# ECEProject-RNN-AutoEncoders
+# Modelling Quadrotor Dynamics
